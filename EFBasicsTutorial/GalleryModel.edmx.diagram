@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5882b2c41d0f4a07955c350af48fb42f" Name="Diagram1">
+        <EntityTypeShape EntityType="EFCodeFirstTutorial.GalleryContextModel.CategoryPhotoes" Width="1.5" PointX="6.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFCodeFirstTutorial.GalleryContextModel.Photos" Width="1.5" PointX="4.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFCodeFirstTutorial.GalleryContextModel.Roles" Width="1.5" PointX="0.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFCodeFirstTutorial.GalleryContextModel.Users" Width="1.5" PointX="2.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="EFCodeFirstTutorial.GalleryContextModel.FK_dbo_Photos_dbo_CategoryPhotoes_CategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="EFCodeFirstTutorial.GalleryContextModel.FK_dbo_Photos_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="EFCodeFirstTutorial.GalleryContextModel.RoleUsers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
